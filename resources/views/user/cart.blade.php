@@ -12,7 +12,7 @@
                   @if (count($products) > 0)
                     @foreach ($products as $product )
                       <div class="md:flex md:items-center mb-2">
-                        <div class="md:w-3/12">
+                        <div class="md:w-3/12 ">
                           @if ($product->imageFirst->filename !== null)
                           <img src="{{ asset('storage/products/' . $product->imageFirst->filename )}}">
                           @else
