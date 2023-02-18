@@ -1,5 +1,16 @@
 ## Udemy Laravel講座
 
+## ダウンロード方法
+git clone
+
+git clone https://github.com/prog-daiki/laravel_umarche.git
+
+git clone ブランチを指定してダウンロードする場合
+
+git clone -b ブランチ名 https://github.com/prog-daiki/laravel_umarche.git
+
+もしくはzipファイルでダウンロードしてください
+
 ## インストール方法
 
 ## インストール後の実施事項
