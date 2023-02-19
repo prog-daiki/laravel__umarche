@@ -85,7 +85,7 @@
                   <div class="flex flex-wrap">
 
                      @foreach($products as $product)
-                       <div class="w-full lg:w-1/4 p-2 md:p-4">
+                       <div class="lg:w-1/4 p-2 md:p-4">
                         <a href="{{ route('user.items.show', ['item' => $product->id ])}}">
                        <div class="border rounded-md p-2 md:p-4">
                          <x-thumbnail filename="{{$product->filename ?? ''}}" type="products" />
