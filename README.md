@@ -1,5 +1,3 @@
-## Udemy Laravel講座
-
 ## ダウンロード方法
 
 git clone
@@ -24,7 +22,7 @@ npm run dev
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
-DB_PORT=3306
+DB_PORT=8889
 DB_DATABASE=laravel_umarche
 DB_USERNAME=umarche
 DB_PASSWORD=password123
@@ -52,12 +50,12 @@ productsフォルダがない場合は作成してください。
 
 ## section7の補足
 
-決済のテストとしてstripeを利用しています。 必要な場合は .env にstripeの情報を追記してください。 (講座内で解説しています)
+決済のテストとしてstripeを利用しています。 必要な場合は .env にstripeの情報を追記してください。 
 
 ## section8の補足
 
-メールのテストとしてmailtrapを利用しています。 必要な場合は .env にmailtrapの情報を追記してください。 (講座内で解説しています)
+メールのテストとしてmailtrapを利用しています。 必要な場合は .env にmailtrapの情報を追記してください。 
 
 メール処理には時間がかかるので、 キューを使用しています。
 
-必要な場合は php artisan queue:workで ワーカーを立ち上げて動作確認するようにしてください。 (講座内で解説しています)
+必要な場合は php artisan queue:workで ワーカーを立ち上げて動作確認するようにしてください。 
